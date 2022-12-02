@@ -89,6 +89,8 @@ main{
     height: 600px;
 }
 .icones-barre-bas{
+    position: absolute;
+    z-index: 999;
     display: flex;
     background: rgb(152, 130, 172);
     margin: 0% 3%;
@@ -112,4 +114,25 @@ i{
 }
 ul{
     font-size: 120%;
+}
+
+.decor {
+    filter: blur(2px);
+}
+
+.bonhome-case1{
+    z-index: 2;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 370px;
+}
+
+.bonhome-case2{
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 370px;
+    right: 70px;
 }
