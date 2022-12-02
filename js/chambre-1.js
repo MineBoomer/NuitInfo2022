@@ -1,7 +1,3 @@
-//a : session chambre1
-//b : session cours
-//c : session épicerie
-
 
 function a1(){
     var button = document.getElementById("self");
@@ -58,7 +54,7 @@ function a2(){
 function a3(){
     var button = document.getElementById("self");
     var newButton = document.createElement("a");
-    newButton.setAttribute("onclick", "c1()");
+    newButton.setAttribute("href", "#");
     newButton.setAttribute("class", "a-low-button");
     newButton.setAttribute("id", "self");
     newButton.innerHTML = "Non";
@@ -68,7 +64,7 @@ function a3(){
 
     var button2 = document.getElementById("self2");
     var newButton2 = document.createElement("a");
-    newButton2.setAttribute("onclick", "b1()");
+    newButton2.setAttribute("href", "./Salle-de-classe.html");
     newButton2.setAttribute("class", "a-low-button");
     newButton2.setAttribute("id", "self2");
     newButton2.innerHTML = "Oui";
