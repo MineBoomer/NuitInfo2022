@@ -53,7 +53,7 @@ function a2(){
 function a3(){
     var button = document.getElementById("self");
     var newButton = document.createElement("a");
-    newButton.setAttribute("onclick", "a4");
+    newButton2.setAttribute("href", "#");
     newButton.setAttribute("class", "a-low-button");
     newButton.setAttribute("id", "self");
     newButton.innerHTML = "Non";
@@ -63,7 +63,7 @@ function a3(){
 
     var button2 = document.getElementById("self2");
     var newButton2 = document.createElement("a");
-    newButton2.setAttribute("onclick", "b1()");
+    newButton2.setAttribute("href", "./soiree.html");
     newButton2.setAttribute("class", "a-low-button");
     newButton2.setAttribute("id", "self2");
     newButton2.innerHTML = "Oui";
