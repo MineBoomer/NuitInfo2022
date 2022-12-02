@@ -54,7 +54,7 @@ function a2(){
 function a3(){
     var button = document.getElementById("self");
     var newButton = document.createElement("a");
-    newButton.setAttribute("href", "#");
+    newButton.setAttribute("href", "./lose.html");
     newButton.setAttribute("class", "a-low-button");
     newButton.setAttribute("id", "self");
     newButton.innerHTML = "Non";
