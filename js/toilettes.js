@@ -12,7 +12,7 @@ function a1(){
     //Fin
     var button2 = document.getElementById("self2");
     var newButton2 = document.createElement("a");
-    newButton2.setAttribute("href", "./lose.css");
+    newButton2.setAttribute("href", "./lose.html");
     newButton2.setAttribute("class", "a-low-button");
     newButton2.setAttribute("id", "self2");
 

@@ -72,5 +72,5 @@ function a3(){
     parentButton.appendChild(newButton2);
 
     var p = document.getElementById("text");
-    p.innerHTML = "*Avec tout ce que vous avez bu, vous ressentez l'envie de faire un tour au petit coin...*";
+    p.innerHTML = "*Avec tout ce que vous avez bu, vous allez au petit coin...*";
 }
