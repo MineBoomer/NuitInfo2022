@@ -40,7 +40,7 @@ function a2(){
     //Fin
     var button2 = document.getElementById("self2");
     var newButton2 = document.createElement("a");
-    newButton.setAttribute("href", "#");
+    newButton.setAttribute("href", "./Plan-a-2.html");
     newButton2.setAttribute("class", "a-low-button");
     newButton2.setAttribute("id", "self2");
 

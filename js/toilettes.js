@@ -58,7 +58,7 @@ function a3(){
     var newButton = document.createElement("a");
     newButton.setAttribute("class", "a-low-button");
     newButton.setAttribute("id", "self");
-    newButton.setAttribute("href", "#");
+    newButton.setAttribute("href", "./soiree2.html");
     newButton.innerHTML = "Suivant"; //Texte bouton 2
     var parentButton = button.parentElement;
     parentButton.removeChild(button);
