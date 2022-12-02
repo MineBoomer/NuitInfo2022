@@ -1,7 +1,3 @@
-//a : session chambre1
-//b : session cours
-//c : session épicerie
-
 
 function a1(){
     var button = document.getElementById("self");
